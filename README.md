@@ -38,3 +38,29 @@ Após isso abra o diretório do projeto e inicie o servidor Laravel
  3. `composer run dev`
 
 Após isso o local host será mostrado no terminal, o acessando poderá abrir seu servidor e usa-lo 
+
+Após o programa ser enviado ao Github, para ser aberto novamente um passo a passo deve ser realizado.
+
+***
+1. Para instalar as dependências do projeto use
+
+    composer install
+
+2. Para instalar as dependências do projeto javascript use
+
+    npm install
+
+3. Se o projeto já tiver webpack ou vite use 
+
+    npm run build
+
+ 4. Copiar o arquivo .env.example e renomeie a cópia para .env
+
+4. Crie uma key para seu projeto usando 
+
+    php artisan key:generate
+
+
+5. Rodar o Migration para abrir o banco de dados usando
+
+    php artisan migrate
