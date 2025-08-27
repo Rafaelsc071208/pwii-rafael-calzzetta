@@ -64,3 +64,12 @@ Após o programa ser enviado ao Github, para ser aberto novamente um passo a pas
 5. Rodar o Migration para abrir o banco de dados usando
 
     php artisan migrate
+
+
+
+***
+Criando view
+
+use o comando
+
+`php artisan make:view teste`
