@@ -65,6 +65,10 @@ Após o programa ser enviado ao Github, para ser aberto novamente um passo a pas
 
     php artisan migrate
 
+   Abrir no navegador usando
+
+    `php artisan serve`
+
 
 
 ***
